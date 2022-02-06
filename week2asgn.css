@@ -18,11 +18,12 @@
 
 .B4 {
     background-color: chocolate;
+    border: 1px solid blue;
     position: fixed;
     bottom: 300px;
-    left : 369px;
-    width: 120px;
-    height: 200px;
+    left : 368px;
+    width: 150px;
+    height: 230px;
 }
 
 .B3{
