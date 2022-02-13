@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 500px;
+}
+
+.first {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
