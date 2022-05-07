@@ -1,0 +1,18 @@
+.counterbody{
+    padding: 250px 600px;
+}
+
+#inc, #dec{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: blueviolet;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#count{
+    margin: 20px;
+    font-size: xx-large;
+    padding: 10px;
+}
+
