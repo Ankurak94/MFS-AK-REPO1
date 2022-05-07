@@ -29,11 +29,11 @@ let counter_1 = document.createElement('span')
 counter_1.setAttribute('id','count')
 counter_1.innerText = count;
 counterbody.append(decBtn,counter_1,incBtn);
-// document.getElementById('inc').addEventListener('click',()=>{
-//     count ++;
-//     document.getElementById('count').innerText=count;
-// });
-// document.getElementById('dec').addEventListener('click',()=>{
-//     count --;
-//     document.getElementById('count').innerText=count;
-// });
+document.getElementById('inc').addEventListener('click',()=>{
+    count ++;
+    document.getElementById('count').innerText=count;
+});
+document.getElementById('dec').addEventListener('click',()=>{
+    count --;
+    document.getElementById('count').innerText=count;
+});
